@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Hacker</title>
+    <link rel="SHORTCUT ICON" href="https://e.top4top.io/p_1990vfkju1.png" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Sarpanch:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=play" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+
+    <style>
+        #logo {
+            width: 300px;
+        }
+        
+        img {
+            animation-name: rotate;
+            animation-duration: 6s;
+            animation-play-state: running;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes rotate {
+            10% {
+                transform: rotateY(36deg)
+            }
+            20% {
+                transform: rotateY(72deg)
+            }
+            30% {
+                transform: rotateY(108deg)
+            }
+            40% {
+                transform: rotateY(144deg)
+            }
+            50% {
+                transform: rotateY(180deg)
+            }
+            60% {
+                transform: rotateY(216deg)
+            }
+            70% {
+                transform: rotateY(252deg)
+            }
+            80% {
+                transform: rotateY(288deg)
+            }
+            90% {
+                transform: rotateY(324deg)
+            }
+            100% {
+                transform: rotateY(360deg)
+            }
+        }
+        
+        body {
+            background: url("https://g.top4top.io/p_1990ug2181.gif");
+            background-size: cover;
+        }
+        
+        h1 {
+            color: white;
+            font-family: Nosifer;
+            text-shadow: 0 0 0.5em red, 0 0 0.5em red;
+        }
+        
+        #broken {
+            color: #FAFAFA;
+            font-family: Iceland;
+            text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+            animation-name: blinker;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        @keyframes blinker {
+            0% {
+                opacity: 1.0;
+            }
+            50% {
+                opacity: 0.0;
+            }
+            100% {
+                opacity: 1.0;
+            }
+        }
+        
+        header {
+            background-color: rgba(33, 33, 33, 0.9);
+            color: #ffffff;
+            display: block;
+            font: 14px/1.3 Arial, sans-serif;
+            height: 50px;
+            position: relative;
+            z-index: 5;
+        }
+        
+        #hacked {
+            color: #FAFAFA;
+            font-family: Sarpanch;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        #king {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        #joke {
+            text-align: center;
+            font-family: play;
+        }
+        
+        #video {
+            width: 300px;
+            align-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 align="center">Hacked By King Hacker</h1>
+    <p align="center"><img align="center" id="logo" src="https://h.top4top.io/p_1990e2j0f2.png" alt="logo"></p>
+    <p id="broken">SYSTEM BROKEN</p>
+    <div id="clouds"></div>
+    <p id="hacked">
+        <font color="red">YOU HAVE BEEN HACKED,</font> BECAUSE OF YOUR LACK OF SECURITY,
+        <font color="red"> UPDATE YOUR SECURITY
+        </font>
+    </p>
+    <p id="king"><b>
+            <font color="white">King </font>
+            <font color="aqua">Hacker <font color="white">:
+        </b></p>
+
+    <p id="joke">-=
+        <font> SECURITY </font>
+        <font color="cyan">|</font>
+        <font> IS </font>
+        <font color="cyan">|</font>
+        <font> A </font>
+        <font color="cyan">|</font>
+        <font> JOKE </font> =-
+    </p>
+    <iframe src="song.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+
+    <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+
+    <script type="text/javascript">
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (!isChrome) {
+            $('#iframeAudio').remove()
+        } else {
+            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+        }
+    </script>
+</body>
+
+</html>
