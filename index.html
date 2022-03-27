@@ -55,14 +55,7 @@ Your browser does not support the audio element.
 
 
 
-    <script type="text/javascript">
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (!isChrome) {
-            $('#iframeAudio').remove()
-        } else {
-            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-        }
-    </script>
+    <script type="text/javascript" src="js.js"></script>
 </body>
 
 </html>
